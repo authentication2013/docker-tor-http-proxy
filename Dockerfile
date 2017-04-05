@@ -18,7 +18,7 @@ EXPOSE 8118
 EXPOSE 9050
 EXPOSE 9053
 
-ADD sudo run /usr/local/bin/run
+ADD run /usr/local/bin/run
 
 CMD ["/usr/local/bin/run"]
 
